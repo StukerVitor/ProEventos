@@ -2,3 +2,26 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0 #{"/* rtl:ignore */"};
+  }
+
+  .popover-arrow {
+  position: absolute;
+  }
+
+  .tooltip {
+  position: absolute;
+  }
+
+  .tooltip-arrow {
+  position: absolute;
+  }
+
